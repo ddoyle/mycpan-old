@@ -1,0 +1,18 @@
+HOME PAGE
+  - Banner
+    - Logo
+    - At right
+      - login
+      - signup
+      - messages
+      - laerts
+  - Right sidebar
+    - Full height
+  - Content area
+    - At top
+      - Search
+    - Dashboard
+      - Watched dists
+      - Newest dists
+      - stats
+   

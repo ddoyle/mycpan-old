@@ -1,0 +1,48 @@
+
+TECHNOLOGY
+    - Frontend
+        - HTML5
+        - CSS3
+            - Sass v1 with Text::Sass
+        - JQuery
+            - Bookmarklet needed for tagging perl modules for investigation
+    - Framework:
+        - Must be Plack Enabled
+        - Dancer?
+        - Catalyst?
+        - CGI::App?
+        - MooseCAP?
+    - Server
+        - nGinx?
+        - mongrel2?
+    - Data Store
+        - mysql
+        - can't think of a reason to use nosql
+    - API
+        - Provide a JSON api to add "fav"
+
+TABLES:
+
+dist
+asset
+- can a module have a version number independant of it's distribution?
+preq
+author
+
+release
+- a release is an "edition" of a module
+- dists can have multiple releases
+- releases have release dates and versions
+- modules belong to one or more releases
+- most recent "release" is one that is used
+
+release_meta
+- releases can have lots of meta information
+- some will be part of the "release" record
+- but other stuff grows over time
+- i'll keep extra data in singular rows in release_meta
+- as newer metadata expands, I'll incorporate it into 
+
+module_release
+author_release
+
